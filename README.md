@@ -1,4 +1,6 @@
 ## Authentication and Security aspects
+
+
  a) Armorcode Agent uses open-source tools (autossh and supervisord) and a configuration file. There is no armorcode specific code in the Agent.
 
 b) Authentication between Agent and Armorcode server is done using standard public-private key authentication mechanism used by SSH. Customer generates public-private key and shares public key with Armorcode via email.
